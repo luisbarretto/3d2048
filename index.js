@@ -268,7 +268,7 @@
 			for(let j=0; j<3; j++)
 				for(let k=0; k<3; k++)
 					if(Brd[k][j][2-i] !== 0)
-						Print(" "+(Brd[k][j][2-i]), [82+94*j, 685+94*i-305*k, 70], true, Brd[k][j][2-i]>9?white:black);
+						Print(" "+(Brd[k][j][2-i]), [82+94*j, 685+94*i-305*k, 70], true, Brd[k][j][2-i]>7?white:black);
 
 		// Imprime o título e o placar
 		let t3d = [350, 70, 50];
