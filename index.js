@@ -16,8 +16,8 @@
 	const Rtt = [4*Pi/5, 0, Pi/4];
 
 	// Parâmetros da esfera
-	const Dfn=20;
-	const Crc=20;
+	const Dfn=10;
+	const Crc=10;
 	
 	// Gradiente de cores
 	const Grd = [ white   = '#FFFFFF',
